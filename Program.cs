@@ -1,4 +1,11 @@
-﻿using System;
+﻿//*****************************************************//
+//  Title: Vacuum Cleaner                              //
+//  Description: Simulate vacuum cleaning two rooms    //
+//  Author: SID 2018481                                //
+//  Date: 27/09/2022                                   //
+//  Console based                                      //
+//*****************************************************//
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,6 +13,12 @@ namespace VacuumCleaner
 {
     class Program
     {
+        /// <summary>
+        /// User enters dirty room(s) and position of vacuum. Program searches for dirty room and cleans. 
+        /// Rechecks rooms for dirt and ends when this goal is reached. Output results for each action to console.
+        /// Test log included at the end of code.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //goalstate a=0,b=0
